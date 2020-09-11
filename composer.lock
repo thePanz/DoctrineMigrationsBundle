@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a7ca68ee7ed2399a5a0893fdbeee7d2",
+    "content-hash": "f7bc09a099e88b8ea251fc785c5aef3d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -550,16 +550,16 @@
         },
         {
             "name": "doctrine/migrations",
-            "version": "3.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "69eaf2ca5bc48357b43ddbdc31ccdffc0e2a0882"
+                "reference": "c9aebbbd44e5eb1872b9a344562fc9975df006a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/69eaf2ca5bc48357b43ddbdc31ccdffc0e2a0882",
-                "reference": "69eaf2ca5bc48357b43ddbdc31ccdffc0e2a0882",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/c9aebbbd44e5eb1872b9a344562fc9975df006a5",
+                "reference": "c9aebbbd44e5eb1872b9a344562fc9975df006a5",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "3.1.x-dev"
                 }
             },
             "autoload": {
@@ -645,7 +645,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-21T08:55:42+00:00"
+            "time": "2020-09-05T06:57:36+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -5269,7 +5269,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "doctrine/migrations": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
